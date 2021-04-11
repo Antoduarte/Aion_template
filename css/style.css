@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*
+/////Header//////
+*/
+
+.bg-aion {
+    background: #3498db;
+}
+
+header {
+    width: 100%;
+    height: 800px;
+    background: #3498db;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar>.container {
+    justify-content: space-around !important;
+}
+
+.logo_aion {
+    width: 85px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 400px;
+    color: wheat;
+}
+
+.content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.content h2 {
+    font-size: 2.6rem;
+    font-weight: bold;
+}
