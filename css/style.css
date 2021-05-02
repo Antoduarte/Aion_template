@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 
 
@@ -48,7 +48,7 @@ header {
 
 .content {
     height: 400px;
-    color: wheat;
+    color: white;
 }
 
 .content h1 {
@@ -99,21 +99,72 @@ header {
     padding: 15px 45px;
     border-radius: 40px;
 }
+
 ul {
     list-style-type: none;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-li{
+
+li {
     background-color: #F6E3CA;
-  float: left;
-  text-align: center;
-  width: 3em;
-}
-.verde{
-    background-color: rgb(64, 163, 73);
+    float: left;
     text-align: center;
+    width: 3em;
+}
+
+.recent-projects {
+    width: 100%;
+    height: 100vh;
+    background: #27ae60;
+}
+
+.contenido_pricipal {
+    margin: 0 auto;
+    width: 744px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: white;
-    font-family: 'Raleway', sans-serif;
+}
+
+.contenido_pricipal p {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+
+/* ============================ swiper ===================================== */
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none;
 }

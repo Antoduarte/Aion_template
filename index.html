@@ -8,6 +8,7 @@
     <title>Aion</title>
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <header>
@@ -62,34 +63,59 @@
 </div>
 
 <body>
+
+
+    <ul class="list-group list-group-horizontal">
+
+        <li> </li>
+        <svg height="200" width="200">
+            <circle cx="90" cy="90" r="60" fill="white" stroke="grey" stroke-width="1" />
+        </svg>
+
+
+        <li></li>
+        <svg height="200" width="200">
+            <circle cx="90" cy="90" r="60" fill="white" stroke="grey" stroke-width="1" />
+        </svg>
+        <li></li>
+        <svg height="200" width="200">
+            <circle cx="90" cy="90" r="60" fill="white" stroke="grey" stroke-width="1" />
+        </svg>
+    </ul>
+    <section class="recent-projects">
+        <div class="contenido_pricipal">
+            <h2 class="mt-5">
+                RECENT PROJECTS
+            </h2>
+            <p class="text-uppercase">eritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia .</p>
+        </div>
+
+        <div class="imgBox container mt-5">
+            <!-- Swiper -->
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/Browser.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/Browser.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/Browser.png" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--Script Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
+    <script src="./js/main.js"></script>
 
-
-<ul class="list-group list-group-horizontal">  
-    
-    <li > </li> 
-    <svg height="200" width="200">
-        <circle cx="90"  cy="90" r="60" fill="white" stroke="grey" stroke-width="1"/>
-    </svg>
-    
-    
-    <li ></li> 
-    <svg height="200" width="200">
-        <circle  cx="90"  cy="90" r="60" fill="white" stroke="grey" stroke-width="1"/>
-    </svg>
-    <li ></li> 
-    <svg height="200" width="200">
-        <circle  cx="90"  cy="90" r="60" fill="white" stroke="grey" stroke-width="1"/>
-    </svg>
-</ul>
-<div class="verde">
-    <h2>
-        RECENT PROJECTS
-    </h2>
-    <p>eritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-</div>
 </body>
 
 </html>
