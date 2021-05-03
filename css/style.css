@@ -64,8 +64,9 @@ header {
 .about {
     background: white;
     border-radius: 10px;
-    height: 450px;
     margin-top: -9rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-bottom: 30px;
 }
 
 .title {
@@ -88,6 +89,7 @@ header {
     font-size: 16px;
     text-transform: uppercase;
     text-align: center;
+    line-height: 2;
 }
 
 .content-about a {
@@ -95,19 +97,19 @@ header {
     display: inline-block;
     background: #3498db;
     margin-top: 16px;
-    color: wheat;
+    color: white;
     padding: 15px 45px;
     border-radius: 40px;
 }
 
-ul {
+.works ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-li {
+.works ul li {
     background-color: #F6E3CA;
     float: left;
     text-align: center;
@@ -116,7 +118,7 @@ li {
 
 .recent-projects {
     width: 100%;
-    height: 100vh;
+    padding-bottom: 50px;
     background: #27ae60;
 }
 
@@ -167,4 +169,69 @@ li {
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right {
     background-image: none;
+}
+
+.our {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.our h4 {
+    max-width: 700px;
+    padding-top: 95px;
+}
+
+.our-client {
+    background: #9b59b6;
+    height: 775px;
+}
+
+.our-client h2 {
+    margin-top: 5rem;
+}
+
+.card {
+    max-width: 505px !important;
+    margin-top: -12rem;
+    height: 545px;
+    padding: 70px 30px 0 30px;
+}
+
+.content_our_client {
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+.content_our_client p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 2;
+}
+
+.content_our_client a {
+    text-decoration: none;
+    display: inline-block;
+    background: #3498db;
+    margin-top: 16px;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 40px;
+}
+
+.clientsImg {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.client-img {
+    width: 140px;
+}
+
+.client-img img {
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
