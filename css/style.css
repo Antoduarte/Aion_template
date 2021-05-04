@@ -197,6 +197,7 @@ header {
     margin-top: -12rem;
     height: 545px;
     padding: 70px 30px 0 30px;
+    border-radius: 10px;
 }
 
 .content_our_client {
@@ -234,4 +235,38 @@ header {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+footer{
+    background-color: #2c3e50;
+    display: flex;
+    
+}
+.logo_aion_footer {
+    width: 95px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.home ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home ul li{
+   color: white;
+    float:right;
+    text-align: center;
+    width: 7em;
+    margin-left: 50px;
+   
+}
+.fin{
+    background-color: #ecf0f1;
+    margin: 40px;
+    color: #2c3e50;
+    font-family: 'Raleway';
 }
